@@ -26,8 +26,12 @@ button {
     margin-top: 10px;
     align-items: center;
 }
-  
 
+#howw {
+    width: 370px;
+    height: 70px;
+}
+  
 input {
     margin-top: 5px;
     height: 25px;
