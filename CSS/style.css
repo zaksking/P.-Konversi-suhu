@@ -1,10 +1,10 @@
 body {
     background-color: #66A5AD;
     display: flex;
-justify-content: center; 
-align-items: center;
-height: 100vh; 
-margin: 0;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
 }
 
 .main-1{
@@ -40,6 +40,7 @@ p {
 }
 
 button {
+    background-color: white;
     height: 25px;
     width: 162px;
     margin-top: 10px;
@@ -48,7 +49,7 @@ button {
 
 
 button:hover {
-    background-color: royalblue;
+    background-color: cadetblue;
 }
 
 .Rumus {
