@@ -53,11 +53,11 @@ button:hover {
 }
 
 .Rumus {
-    text-align: center;
     border: 1px solid black;
-    background-color: aliceblue;
-    width: 230px;
-    height: 28px;
+    background-color: white;
+    width: 200px;
+    height: 55px;
+    padding-left: 25px;
 }
 
 input {
