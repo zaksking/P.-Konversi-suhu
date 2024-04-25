@@ -7,7 +7,7 @@
     <title>Konversi suhu by Azzam Habibi</title>
 </head>
 <body>
-    <main>
+    <main class="main-1">
         <h1>Konversi Suhu</h1>
         <section>
             <h3>Masukan angka (&#176;C) / (&#x2109;) untuk di Konversi</<h3>
@@ -15,15 +15,17 @@
             <input type="number" id="askk" placeholder="&#176; / &#x2109;" required>
         </section>
         <section>
-            <h3>Jawaban </h3>
+            <h3>Jawaban</h3>
             <input type= "number" id="answer">
         </section>
-            <button onclick="ConvertToFahrenhait()">Celcius to Fahrenhait</button>
+            <button onclick="ConvertToFahrenhait()"><span>Convert to Fahrenhait</span> </button>
             <br>
-            <button onclick="DsReset()">Reset</button>
+            <button onclick="DsReset()"><span>Reset</span></button>
             <br>
-            <button onclick="ConvertToCelcius()">Fahrenhait to Celcius</button>
+            <button onclick="ConvertToCelcius()"><span>Convert to Celcius</span></button>
         </div>
+    </main>
+    <main class="main-2">
         <section>
             <article>
                 <h1>Rumus Celsius ke Fahrenhait</h1>
@@ -39,9 +41,9 @@
                 <p>Suhu <i>S</i> dalam derajat Celsius(&#176;C) sama dengan suhu <i>S</i> dalam 
                 <br>
                 dalam derajat Fahrenheit ((&#x2109;) - 32) x 9/5</p>
-                <article><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) x 9/5</article>
+                <article><p><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) x 9/5</p></article>
                 <p>atau</p>
-                <article><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) &#247; 1,8</article>
+                <article><p><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) &#247; 1,8</p></article>
             </article>
         </section>
     </main>
