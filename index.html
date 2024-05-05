@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Konversi suhu by Azzam Habibi</title>
+    <title>Konversi Remake v1</title>
 </head>
 <body>
+    
     <main class="main-1">
-        <h1>Konversi Suhu <br>by Azzam Habibi</h1>
+        <h1>Konversi Suhu</h1>
         <section>
             <h3>Masukan angka (&#176;C) / (&#x2109;) untuk di Konversi</<h3>
                 <br>
@@ -19,33 +20,14 @@
             <input type= "number" id="answer">
         </section>
             <button onclick="ConvertToFahrenhait()"><span>Convert to Fahrenhait</span> </button>
-            <br>
             <button onclick="DsReset()"><span>Reset</span></button>
-            <br>
             <button onclick="ConvertToCelcius()"><span>Convert to Celcius</span></button>
+            <br>
+            <section>
+            <h3>Caranya</h3>
+            <textarea name="rawr" id="caranya"></textarea>
+            </section>
         </div>
-    </main>
-    <main class="main-2">
-        <section>
-            <article>
-                <h1>Rumus Celsius ke Fahrenhait</h1>
-                <p>suhu <i>S</i> dalam derajat Fahrenhait (&#x2109;) sama dengan suhu <i>S</i> dalam 
-                <br>
-                derajat Celsius ((&#176;C) x 9/5) tambah 32</p>
-                <article class="Rumus"><p><i>S</i><sub>(&#x2109;)</sub> = (<i>S</i><sub>(&#176;C)</sub> x 9/5) + 32</p></article>
-                <p>atau</p>
-                <article class="Rumus"><p><i>S</i><sub>(&#x2109;)</sub> = (<i>S</i><sub>(&#176;C)</sub> x 1.8) + 32</p></article>
-            </article>
-            <article>
-                <h1>Rumus Fahrenhait ke Celsius</h1>
-                <p>Suhu <i>S</i> dalam derajat Celsius(&#176;C) sama dengan suhu <i>S</i> dalam 
-                <br>
-                dalam derajat Fahrenheit ((&#x2109;) - 32) x 9/5</p>
-                <article class="Rumus"><p><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) x 9/5</p></article>
-                <p>atau</p>
-                <article class="Rumus"><p><i>S</i><sub>(&#176;C)</sub> = (<i>S</i><sub>(&#x2109;)</sub> - 32) &#247; 1,8</p></article>
-            </article>
-        </section>
     </main>
     <script src="js/script.js"></script>
 </body>
