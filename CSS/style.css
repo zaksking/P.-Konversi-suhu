@@ -55,6 +55,7 @@ button:hover {
 }
 
 textarea {
+    background-color: white;
     resize: none;
     margin-top: 5px;
     width: 300px;
